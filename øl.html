@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lokalt bryghus i Trøjborg i Århus der tilbyder alkholfri øl ">
+    <meta name="keywords" content="Alkoholfri øl, Hvorfor vælge alkoholfri øl, Alkoholfri øl 0,0">
+    <title>Vores Øl</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script/wheel.js"></script>
+</head>
+
+    <body class="body">
+      
+<!-- header -->
+
+    <header class="header">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      
+      <ul class="menu">
+          <li class="submenu">
+              <a href="#"> Øl</a>
+              <ul>
+                  <li><a href="øl.html">Vores Øl</a></li>
+                  <li><a href="errorpage.html">Kommer Snart</a></li>
+              </ul>
+          </li>
+
+          <li class="submenu">
+              <a href="#">Alkoholfrit Princip</a>
+              <ul>
+                  <li><a href="alkoholfrit_princip.html">Fordele</a></li>
+              </ul>
+          </li>
+
+          <li class="submenu">
+              <a href="#">Ølprocessen</a>
+              <ul>
+                  <li><a href="fremstillingsproces.html">Fremstillingsproces</a></li>
+                  <li><a href="errorpage.html">Guidet Rundtur</a></li>
+              </ul>
+          </li>
+
+          <li class="submenu">
+              <a href="find_os.html">Find Os</a>
+          </li>   
+                   
+      </ul>
+    </header>
+
+     <!-- billede -->
+
+
+    <div class="forsidebillede">
+      <img src="images/tynderudvalg.jpeg" alt="forside" class="forsidebillede">
+    </div>
+<main>
+    <div class="center-text">
+      <p>Smag vores 4 forskellige varianter af alkoholfri øl 0,0
+        Vi tilbyder smagsvarianter du kender, men helt uden alkohol, uden du kan smage forskel
+        Prøv vores IPA, Red Sour, Dark ale og Pilsner, for sundere alternativ du
+        ikke vil fortryde
+        </p>
+  </div>
+
+ <!-- billeder med overlay billeder -->
+
+  <div class="custom-grid">
+    <div class="custom-image-container">
+      <div>
+        <img class="custom-dunklebilleder" src="images/ipa_dunkel.jpeg" alt="ipa dunkel">
+        <img class="custom-overlay-image" src="images/ipa2.png" alt="billede">
+      </div>
+    </div>
+  
+    <div class="custom-image-container">
+      <div>
+        <img class="custom-dunklebilleder" src="images/red_sour_dunkel.jpeg" alt="red sour dunkel">
+        <img class="custom-overlay-image" src="images/redsour2.png" alt="billede">
+      </div>
+    </div>
+  
+    <div class="custom-image-container">
+      <div>
+        <img class="custom-dunklebilleder" src="images/dark_ale_dunkel.jpeg" alt="dark ale dunkel">
+        <img class="custom-overlay-image" src="images/darkale2.png" alt="billede">
+      </div>
+    </div>
+  
+    <div class="custom-image-container">
+      <div>
+        <img class="custom-dunklebilleder" src="images/pilsner_dunkel.jpeg" alt="pilsner dunkel">
+        <img class="custom-overlay-image" src="images/pilsner2.png" alt="billede">
+      </div>
+    </div>
+  </div>
+
+  <!-- spin the wheel -->
+
+
+  <div class="overskrift_hjul">
+    <h1>
+     SPIN HJULET OG FÅ EN PRÆMIE
+    </h1>
+  </div>
+
+        <div id="mainbox" class="mainbox">
+          <div id="box" class="box">
+            <div class="box1">
+              <span class="span1"><b>Et års abonneoment af øl</b></span>
+              <span class="span2"><b>Gratis rundtur</b></span>
+              <span class="span3"><b>Nitte</b></span>
+              <span class="span4"><b>2 gratis øl</b></span>
+            </div>
+            <div class="box2">
+              <span class="span5"><b>3 gratis øl</b></span>
+              <span class="span6"><b>Nitte</b></span>
+              <span class="span7"><b>Fri bar i 1 time</b></span>
+              <span class="span8"><b>Gratis ølsmagning</b></span>
+            </div>
+          </div> 
+          <button class="spin" onclick="rotateFunction()">SPIN</button>
+          <div class="arrow" id="arrow"></div>
+
+  </div>
+</main>
+
+<!-- footer -->
+
+<footer class="footer">
+  <hr class="linje">
+
+<div class="logofooter">
+  <img src="images/logo.png" alt="logofooter" class="logofooter">
+</div>
+
+
+<div class="grid-container">
+  <div class="item_menuer">ØL</div>
+  <div class="item_menuer">ALKOHOLFRIT PRINCIP</div>
+  <div class="item_menuer">ØLPROCESSEN</div>
+  <div class="item_menuer">OM OS</div>
+  <div class="item"><a href="errorpage.html">Kommer snart</a></div>
+  <div class="item"><a href="alkoholfrit_princip.html">Fordele</a></div>
+  <div class="item"><a href="fremstillingsproces.html">Fremstillingsproces</a></div>
+  <div class="item"><a href="find_os.html">Find os</a></div>
+  <div class="item"><a href="øl.html">Vores øl</a></div>
+  <div class="item"><a href="#"></a></div>
+  <div class="item"><a href="errorpage.html">Guidet rundtur</a></div>
+  <div class="item"><a href="errorpage.html">Vores vision</a></div>
+</div>
+
+<div class="ikoner">
+  <img src="images/facebook-2.png" alt="facebook" class="facebook">
+  <img src="images/instagram.png" alt="instragram" class="instagram">
+  <img src="images/telegram.png" alt="telegram" class="telegram">
+</div>
+
+
+
+<hr class="linje">
+
+</footer>
+
+</body>
+</html>
